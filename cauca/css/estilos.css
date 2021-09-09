@@ -1,0 +1,57 @@
+#ar {
+    width: 1345px;
+    height: 100px;
+    border: 1px solid #AA9779;
+    background-color: #AA9779;
+    bottom: -100px;
+    top: 20px;
+}
+
+.img {
+    text-align: center;
+    top: 100px;
+}
+
+th.nom {
+    position: absolute;
+    color: green;
+    font-style: bold;
+    font-size: 15px;
+    left: 165px;
+    top: 275px;
+}
+
+th.pasat {
+    position: absolute;
+    color: green;
+    font-style: bold;
+    font-size: 15px;
+    left: 415px;
+    top: 275px;
+}
+
+th.est {
+    position: absolute;
+    color: green;
+    font-style: bold;
+    font-size: 15px;
+    left: 650px;
+    top: 275px;
+}
+
+th.con {
+    position: absolute;
+    color: green;
+    font-style: bold;
+    font-size: 15px;
+    left: 870px;
+    top: 275px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: -1100px;
+    grid-row-gap: 0px;
+}
